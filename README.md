@@ -18,7 +18,7 @@ This script is using exif tool and helps you to trace out the metadata out of yo
 > Enter the following command 
 >```
 > $ sudo chmod +x exif.sh
-> $sudo ./exif.sh
+> $ sudo ./exif.sh
 >```
 > **Note: Always run as root**
 # Supported file format
