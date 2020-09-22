@@ -16,7 +16,7 @@ This script is using exif tool and helps you to trace out the metadata out of yo
 
 # Supported file format
 
-> ## File Types\
+> ## File Types
 > ```
 > ------------+-------------+-------------+-------------+------------ \
 > 3FR   r     | DPX   r     | ISO   r     | O     r     | RAW   r/w   \
