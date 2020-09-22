@@ -7,13 +7,20 @@ This script is using exif tool and helps you to trace out the metadata out of yo
 > ```$ sudo apt-get install libimage-exiftool-perl ```
 
 # Features
-> * **Complete details about the metatag of a file**
-> * **Common details about your image**
-> * **GPS information of the image**
-> * **Finding the focal length of the image**
-> * **Converting image to a thumnail image**
-> * **Remove metadata(not all metadata will be removed but someof it would be removed)**
+> * *Complete details about the metatag of a file*
+> * *Common details about your image*
+> * *GPS information of the image*
+> * *Finding the focal length of the image*
+> * *Converting image to a thumnail image*
+> * *Remove metadata(not all metadata will be removed but someof it would be removed)*
 
+# Running the script
+> Enter the following command 
+>```
+> $ sudo chmod +x exif.sh
+> $sudo ./exif.sh
+>```
+> **Note: Always run as root**
 # Supported file format
 
 > ## File Types
