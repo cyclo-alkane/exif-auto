@@ -28,9 +28,9 @@ printf '\e[0;32m 3) GPS information\e[0m\n'
 printf '\e[0;32m 4) Focal Length\e[0m\n'
 printf '\e[0;32m 5) Convert Image to a thumbnail\e[0m\n'
 printf '\e[0;32m 6) Width of the image\e[0m\n'
-printf '\e[0;32m 6) See information in verbose mode\e[0m\n'
-printf '\e[0;32m 7) Remove metadata\e[0m\n'
-printf '\e[0;32m 8) Metadata of pdf file\e[0m\n'
+printf '\e[0;32m 7) See information in verbose mode\e[0m\n'
+printf '\e[0;32m 8) Remove metadata\e[0m\n'
+printf '\e[0;32m 9) Metadata of pdf file\e[0m\n'
 
 if [[ "$2" -eq "" ]]; then
 read -e -p "Number>" scan
@@ -74,7 +74,7 @@ elif [[ $scan == '7' ]]
 elif [[ $scan == '8' ]]
 	then
 	exiftool -all= $target
-elif [[ $scan == '8' ]]
+elif [[ $scan == '9' ]]
 	then
 	exiftool $target
 
