@@ -17,6 +17,7 @@ This script is using exif tool and helps you to trace out the metadata out of yo
 # Supported file format
 
 > ## File Types\
+> ```
 > ------------+-------------+-------------+-------------+------------ \
 > 3FR   r     | DPX   r     | ISO   r     | O     r     | RAW   r/w   \
 > 3G2   r/w   | DR4   r/w/c | ITC   r     | ODP   r     | RIFF  r     \
@@ -58,6 +59,7 @@ This script is using exif tool and helps you to trace out the metadata out of yo
 > DNG   r/w   | INSP  r/w   | NEF   r/w   | RAF   r/w   | XMP   r/w/c \
 > DOC   r     | INSV  r     | NRW   r/w   | RAM   r     | ZIP   r     \
 > DOCX  r     | INX   r     | NUMBERS r   | RAR   r     |
+> ```
 
 
 
