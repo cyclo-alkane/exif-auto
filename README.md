@@ -3,7 +3,7 @@ This script is using exif tool and helps you to trace out the metadata out of yo
 
 # Requirement
 > You will be needing exif tool to be installed in your machine.
-> For installation in your linux machine type
+> For installation in your linux machine type\
 > ```$ sudo apt-get install libimage-exiftool-perl ```
 
 # Features
